@@ -1,0 +1,25 @@
+.main{
+   flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+.head{
+    width: 78%;
+}
+.head h1{
+    color : #56B27B;
+    font-size: 50px;
+    width: 39%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    text-align: left;
+}
+.head h2{
+    color :#2b6c84;
+    font-size: 50px;
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 6%;
+    text-align: left;
+}

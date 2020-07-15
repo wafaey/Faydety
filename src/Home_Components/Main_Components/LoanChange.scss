@@ -1,0 +1,31 @@
+.loan-info{
+    background-color: #56B27B;
+    width: 120%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5%;  
+}
+.loan{
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    
+}
+.lower{
+    margin-top: 25px;
+}
+.add-color{
+    background-color: #2b6c84;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+.add{
+    color: grey;
+}

@@ -1,0 +1,36 @@
+.loanMain{
+    background-color: #f8f9fa;
+    height: 40%;
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.middle-part{
+    width: 60%;
+}
+.middle-part h4{
+    text-align: left;
+    color: #2b6c84;
+}
+.show-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check-color{
+    color: #56B27B;
+    text-decoration-line: underline;
+
+}
+.more-color{
+    color: #56B27B;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apply-color{
+    background-color:  #56B27B;
+    color: white;
+}
