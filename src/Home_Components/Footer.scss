@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 4%;
 }
 .policy{
     display: flex;
@@ -44,7 +45,7 @@
 }
 .rightt{
     display: flex;
-    width: 50%;
+    width: 57%;
 }
 .leftt{
     display: flex;
@@ -54,13 +55,78 @@
     height: 55px;
 }
 .side{
-    color: #2b6c84;   
-    font-weight: 400;
+   color: #2b6c84;   
+   font-weight: 400;
    border-right-style: solid;
-   border-image-width: 1cm;
+   border-right-width: thin;
    display: flex;
    flex-direction: column;
    align-items: center;
    text-align: left;
    justify-content: flex-start;
+}
+.policyy{
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    .middle-section{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rightt{
+        width: 95%;
+    }
+    .side{
+        margin-left: 4%;
+        align-items: flex-start; 
+    }
+    .leftt{
+        width: 45%;
+    }
+    .policy{
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .upper-section{
+        flex-direction: column;
+    }
+    .size{
+        width: 60%;
+    }
+    .math{
+        width: 65%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: unset;
+        margin-top: 5px;
+        align-items: flex-start;
+    }
+    .rightt{
+       display: grid;
+       grid-template-columns: auto auto;
+    }
+    .side{
+        border-right-width: 0;
+        border-right-style: unset;
+    }
+    .policy{display: none;}
+    .policyy{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2%;
+        color: #2b6c84;   
+        font-weight: 300;
+        width: 85%;
+    }
+    .leftt{
+        width: 85%;
+    }
+    .lower-section{
+        justify-content: center;
+        margin-bottom: 8%;
+    }
 }

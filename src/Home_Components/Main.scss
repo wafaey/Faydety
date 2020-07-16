@@ -23,3 +23,71 @@
     margin-left: 6%;
     text-align: left;
 }
+.filterOnClick{
+    display: none;
+}
+.filter{
+    display: none;
+}
+.filterIcon{
+    display: flex;
+    align-items: center;
+}
+.hideFilter{
+    display: none;
+}
+@media screen and (max-width: 770px) {
+    .head h1{
+        font-size: 40px;
+        width: 80%;
+        margin-bottom: 1%;
+        margin-left: 6%;
+        font-weight: 900;
+    }
+    .head h2{
+        font-size: 40px;
+        width: 65%;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .head h1{
+        font-size: 35px;
+        width: 100%;
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+    .head h2{
+        font-size: 32px;
+        width: 100%;
+        font-weight: 700;
+    }
+    .filterOnClick{
+        display: flex;
+        .loan-info{
+            display: flex;
+            height: 340px;
+            width: 360px;
+        }
+        margin-bottom: 5%;
+        
+    }
+    .filter{
+        display: flex;
+        background-color: #56B27B;
+        width: 100%;
+        height: 60px;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+
+    }
+    .hideFilter{
+        display: none;
+      
+    }
+
+}
+

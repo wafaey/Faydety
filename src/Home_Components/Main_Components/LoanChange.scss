@@ -19,6 +19,7 @@
 }
 .add-color{
     background-color: #2b6c84;
+    border-radius: 20px;
 }
 .dropdown{
     display: flex;
@@ -28,4 +29,36 @@
 }
 .add{
     color: grey;
+}
+@media screen and (max-width: 770px) {
+    .loan-info{
+height: 150px;
+    }
+    .loan{
+        display: grid;
+        grid-template-areas: '. myArea myArea ';
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .item1 {
+        grid-area: myArea;
+        width: 60%;
+        .add{
+            font-size: smaller;
+          }
+      }
+}
+
+@media screen and (max-width: 360px) {
+    .loan-info{
+        display: none;
+    }
+    .loan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropdown{
+        width: 65%;
+    }
 }

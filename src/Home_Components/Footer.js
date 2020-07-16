@@ -14,8 +14,8 @@ export default function Footer() {
     <div className="footer">
       <div className='footer-data'>
          <div className='upper-section'>
-         <img src={logo} alt='FaydetyLogo'></img>
-         <div className='upper-side'>
+         <img src={logo} className='size' alt='FaydetyLogo'></img>
+         <div className='upper-side math'>
           <p>How it Works</p>
           <p>Calculators</p>
           <p>Money Blog</p>
@@ -39,6 +39,10 @@ export default function Footer() {
           <p>Saving Deposits</p>
          </div>
          </div>
+         <div className='policyy'>
+         <p>Bank Directory</p>
+         <p>Privacy policy</p>
+         </div>
         <div className='leftt'>
           <LinkedInIcon color={'action'} fontSize={'large'}/>
           <InstagramIcon color={'action'} fontSize={'large'}/>
@@ -53,7 +57,7 @@ export default function Footer() {
          <p>Privacy policy</p>
          </div>
          <div className='help'>
-         <button class="btn apply-color" type="button"> <span><ModeCommentIcon /></span> Help!</button>
+         <button className="btn apply-color" type="button"> <span><ModeCommentIcon /></span> Help!</button>
          </div>
         </div>
       </div>
